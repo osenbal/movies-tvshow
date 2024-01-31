@@ -97,7 +97,7 @@ onMounted(async () => {
     </li>
 
     <li>
-      <router-link class="text-white" to="/my-list">My list</router-link>
+      <router-link class="text-white" to="/watchlist">My list</router-link>
     </li>
   </ul>
   <div class="relative">
