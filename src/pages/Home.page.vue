@@ -18,7 +18,7 @@ const backgroundKey = ref(0);
 
 const dynamicBackgroundUrl = computed(() => {
   return popularMovies.value[0]?.backdrop_path
-    ? `bg-[url('${IMDB_URL_BACKDROP}${popularMovies.value[0]?.backdrop_path}')]`
+    ? `bg-[url('https://media.themoviedb.org/t/p/w1920_and_h800_multi_faces/uC9V9D9YtV1ffckyDZSUsdw7fBs.jpg')]`
     : '';
 });
 
